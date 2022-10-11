@@ -38,11 +38,12 @@ if (!guess){
        }, 250)
        document.querySelector('body').style.backgroundColor = '#40070d';
     } else {
-    displayMessage('💥 You lost the game!');
-    document.querySelector('.score').textContent = 0;
-    document.querySelector('body').style.backgroundColor = '#40070d';
+        displayMessage('💥 You lost the game!');
+        document.querySelector('.score').textContent = 0;
+        document.querySelector('.secret-number').textContent = secretNumber; 
+        document.querySelector('body').style.backgroundColor = '#40070d';
+        }
     }
-}
 })
 
 // Add event when clicking "Again" button - *Reset everything to normal state*
