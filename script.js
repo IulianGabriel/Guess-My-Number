@@ -24,7 +24,6 @@ const enableButton = function(){
     });
 };
 
-
 const missBgColor = function(){
     document.querySelector('body').style.backgroundColor = '#40070d';
 }
