@@ -186,3 +186,30 @@ h1{
         margin-bottom: 50px;
     }
   }
+
+  @media screen and (max-height:700px){
+    .secret-number{
+        font-size: 48px;
+        width: 100px;
+        height: 100px;
+    }
+    h1{
+        padding-top: 20px;
+        font-size: 18px;
+    }
+    .check{
+        width: 150px;
+    }
+    .guess{
+        width: 150px;
+    }
+    .right p{
+        font-size: 15px;
+    }
+    .again{
+        font-size: 18px;
+        width: 150px;
+        padding-left: 25px;
+    }
+    }
+  
