@@ -20,8 +20,6 @@ const enableButton = function(){
     document.querySelector('.check').disabled = false;
     document.querySelector('.check').style.backgroundColor = '#FFD700';
     document.querySelector('.check').style.pointerEvents = 'auto';
-    document.querySelector('.check').addEventListener('mouseenter', function(){
-    });
 };
 
 const missBgColor = function(){

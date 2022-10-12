@@ -21,6 +21,7 @@ header{
     position: relative;
     border-bottom: 7px solid #FFD700;
     height: 35vh;
+    width: 100%;
 }
 
 main{
@@ -29,6 +30,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    width: 100%;
 }
 
 .left{
@@ -130,3 +132,38 @@ h1{
     background-color: #fce771;
     transition: 0.3s;
 }
+
+@media screen and (max-width: 600px) {
+    .first-header-div{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .again {
+        margin-bottom: 20px;
+    }
+    h1{
+        padding: 30px 0 0 0;
+        font-size: 32px;
+    }
+    .right{
+    text-align: center;
+    width: 170px;
+    }
+    .left{
+    width: 170px;
+    }
+    .guess{
+        width: 170px;
+    }
+    body{
+        overflow: hidden;
+    }
+    .right p{
+        font-size: 19px;
+    }
+    .highscore{
+    display: block;
+    padding-top: 4px;
+    }
+  }
